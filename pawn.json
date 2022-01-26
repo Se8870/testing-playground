@@ -1,0 +1,20 @@
+{
+	"user": "Se8870",
+	"repo": "testing-playground",
+	"entry": "gamemodes/test.pwn",
+	"output": "gamemodes/test.amx",
+	"dependencies": [
+		"Zeex/samp-plugin-crashdetect:v4.20",
+		"sampctl/samp-stdlib",
+		"samp-incognito/samp-streamer-plugin:v2.9.5",
+		"pawn-lang/YSI-Includes"
+	],
+	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777,
+		"hostname": "sa-mp server"
+	}
+}
